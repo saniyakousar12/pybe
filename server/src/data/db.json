@@ -720,6 +720,50 @@
       "completedAt": null,
       "createdAt": "2026-08-23T09:38:04.457Z",
       "updatedAt": "2026-08-23T09:38:04.457Z"
+    },
+    {
+      "id": "8b0a9fc3-4606-4fc6-ab76-1b7bbb721dec",
+      "_id": "c3bd137a-63cc-4fe7-bdb3-33db18aebce2",
+      "learnerName": "Guest learner",
+      "scenario": "bbf096f2-1856-45b0-bd89-cc7fe675d4a9",
+      "reasoning": "If it is raining, I should carry an umbrella. Otherwise, I should leave it at home.",
+      "promptText": "",
+      "abstractionMap": [
+        {
+          "keywords": [
+            "if",
+            "when",
+            "unless",
+            "decide",
+            "choose",
+            "condition"
+          ],
+          "pattern": "Decision making",
+          "pythonConcept": "if / elif / else",
+          "explanation": "You are branching based on a condition, which is exactly what conditional statements express."
+        }
+      ],
+      "generatedCode": "temperature = 32\n\nif temperature > 30:\n    print(\"Take action now\")\nelse:\n    print(\"Keep observing\")",
+      "codeExplanation": "The code starts from your natural reasoning and turns it into Python structure: Decision making becomes if / elif / else.",
+      "promptScore": 35,
+      "promptFeedback": [
+        "Add more context about the situation and expected output.",
+        "Ask the AI to explain its reasoning, not just produce code.",
+        "Include an example input or output to make the prompt testable.",
+        "Name the Python concept you think may apply."
+      ],
+      "reflection": "",
+      "misconceptions": [],
+      "masterySignals": [
+        "Recognized decision making"
+      ],
+      "score": 0,
+      "codeWritten": "",
+      "timeSpent": 0,
+      "status": "in_progress",
+      "completedAt": null,
+      "createdAt": "2026-08-23T13:08:33.300Z",
+      "updatedAt": "2026-08-23T13:08:33.300Z"
     }
   ],
   "analytics": {
